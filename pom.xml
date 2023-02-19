@@ -15,7 +15,6 @@
 	<description>User Service for Meter Your Calories Platform</description>
 	<properties>
 		<java.version>17</java.version>
-		<azure.version>3.9.0</azure.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -37,25 +36,17 @@
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
-
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-oauth2-client</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
-		<!-- Azure Active Directory Spring Boot Starter  -->
-		<dependency>
-			<groupId>com.azure.spring</groupId>
-			<artifactId>azure-spring-boot-starter-active-directory</artifactId>
-			<version>${azure.version}</version>
-		</dependency>
-		<!-- Spring OAuth2 Client -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-oauth2-client</artifactId>
-		</dependency>
 	</dependencies>
+
 
 	<build>
 		<plugins>
