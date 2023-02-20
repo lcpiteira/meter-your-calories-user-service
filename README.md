@@ -1,5 +1,5 @@
 # Meter Your Calories Platform
-## Order Service
+## User Service
 
 This service intends to solve all authentication, authorization and user management.
 
