@@ -1,5 +1,7 @@
 # Meter Your Calories Platform
-## Order Service
+
+## User Service
+
 
 This service intends to solve all authentication, authorization and user management.
 
@@ -12,4 +14,6 @@ After some changes in strategy when invoking any feature of the service's API, i
 
 But another problem occurred, the github callback process was not working as it should, not redirecting after authorization to the intended endpoint.
 
+
 For user management, it was intended to obtain user information and create an entry for that user in the database after the authentication and authorization process.
+
